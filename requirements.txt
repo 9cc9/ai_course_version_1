@@ -1,0 +1,7 @@
+faiss==1.5.3
+llama_index==0.12.23
+numpy==2.2.3
+pandas==2.0.3
+peewee==3.17.9
+pydantic==2.10.6
+Requests==2.32.3
