@@ -33,6 +33,7 @@ embed_model = DashScopeEmbedding(
     api_key=API_KEY
 )
 
+# 从文件里依次读取每行文本
 for chunk in pd.read_csv('../data/运动鞋店铺知识库.txt', sep='\t', names=['passage'], chunksize=chunk_size):
     batch_text = chunk['passage'].values[0]
     # 打印读取的单行文本
